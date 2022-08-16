@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas a <Button/> Debe de mostrarse correctamente 1`] = `
+<button
+  className="border-2 rounded hover:bg-yellow-500 hover:text-white hover:transition duration-200 ease-in-out mt-2 min-w-min "
+>
+  Haz Click
+</button>
+`;

@@ -1,0 +1,11 @@
+.iconHover:hover > path {
+  fill: #f59f0bc4;
+}
+
+.iconHover:focus > path {
+  fill: #f59f0bc4;
+}
+
+.iconHover:active > path {
+  fill: #f59f0bc4;
+}

@@ -1,0 +1,39 @@
+{
+  "editor.tabSize": 2,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "eslint.format.enable": true,
+  "eslint.lintTask.enable": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.vueIndentScriptAndStyle": true,
+  "workbench.editor.pinnedTabSizing": "compact",
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "stash-push:command", "switch:command", "stash-apply:command"],
+  "gitlens.views.tags.branches.layout": "list",
+  "php.validate.executablePath": "",
+  "editor.suggestSelection": "first",
+  "eslint.run": "onSave",
+  "workbench.editorAssociations": [
+    {
+      "viewType": "jupyter.notebook.ipynb",
+      "filenamePattern": "*.ipynb"
+    }
+  ],
+  "eslint.alwaysShowStatus": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 150,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false
+}

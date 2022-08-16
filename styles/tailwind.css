@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Input Select */
+@layer base {
+  select {
+    background-image: url('/icons/arrow-down.svg');
+  }
+}
+
+@import './spinner.css';
+@import './icons.css';
+@import './utils.css';
+@import './MDEditor.css';

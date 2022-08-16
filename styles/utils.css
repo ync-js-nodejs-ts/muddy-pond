@@ -1,0 +1,151 @@
+.navMobile {
+  @apply w-full mx-auto fixed bottom-0 bg-white tabletmin:hidden rounded-3xl rounded-b-none flex justify-center items-center z-50;
+  box-shadow: rgb(0 0 0 / 42%) 0px -3px 20px;
+  height: 10vh;
+}
+
+/* Map */
+#mapView {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.13);
+  height: 90%;
+  width: 100%;
+}
+
+#mapView > .leaflet-pane {
+  z-index: 0 !important;
+}
+
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 1 !important;
+}
+
+.markerPop > * {
+  font-family: 'Inter', sans-serif;
+}
+
+/* React Multi Carousel */
+.react-multiple-carousel__arrow--left {
+  left: 0 !important;
+  z-index: 1 !important;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 0 !important;
+  z-index: 1 !important;
+}
+
+.unSelectElement {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+}
+
+/* Hover Effects */
+.brightness:hover {
+  filter: brightness(1.5);
+}
+
+/* Custom Input Radio */
+
+[type='radio']:checked,
+[type='radio']:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type='radio']:checked + label,
+[type='radio']:not(:checked) + label {
+  position: relative;
+  padding-left: 28px;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #666;
+}
+[type='radio']:checked + label:before,
+[type='radio']:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #ddd;
+  border-radius: 100%;
+  background: #fff;
+}
+[type='radio']:checked + label:after,
+[type='radio']:not(:checked) + label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  /* background: #335da5; */
+  background: #fbbf24;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type='radio']:not(:checked) + label:after {
+  opacity: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+[type='radio']:checked + label:after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+/* SVG hover color  */
+
+.svg_isActive:hover {
+  fill: @apply text-yellow-400;
+}
+
+/* Custom Scroll */
+
+/* width */
+.customScroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.customScroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.customScroll::-webkit-scrollbar-thumb {
+  background: #1e478d;
+}
+
+/* Handle on hover */
+.customScroll::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Masonry Custom CSS */
+
+.my-masonry-grid {
+  display: -webkit-box; /* Not needed if autoprefixing */
+  display: -ms-flexbox; /* Not needed if autoprefixing */
+  display: flex;
+  margin-left: -30px; /* gutter size offset */
+  width: auto;
+}
+.my-masonry-grid_column {
+  padding-left: 30px; /* gutter size */
+  background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div {
+  /* change div to reference your elements you put in <Masonry> */
+  background: grey;
+  margin-bottom: 30px;
+}

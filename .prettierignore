@@ -1,0 +1,9 @@
+*.md
+*.json
+.next
+.vscode
+postcss.config.js
+next-env.d.ts
+next.config.js
+tailwind.config.js
+.eslintrc.js
